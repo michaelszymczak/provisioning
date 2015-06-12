@@ -1,0 +1,6 @@
+## add at the end of ~/.zshrc: 
+#(enabling bash-like comments)
+setopt interactivecomments
+# g as git + autocomplete
+alias g='git'
+

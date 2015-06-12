@@ -8,4 +8,4 @@ puppet module install puppetlabs-apt
 
 puppet apply shell.pp
 puppet apply workflow.pp
-puppet apply java.pp
+puppet apply java8.pp
