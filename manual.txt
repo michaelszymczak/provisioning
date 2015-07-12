@@ -1,8 +1,11 @@
 ## add at the end of ~/.zshrc: 
 #(enabling bash-like comments)
 setopt interactivecomments
+# clipboard copying without the new line
+alias xclip='xargs echo -n | xclip -selection clipboard'
 # g as git + autocomplete
 alias g='git'
 # to disable annoying java messege at every start:
 unset JAVA_TOOL_OPTIONS
+# copy to the clipboard using xclip
 

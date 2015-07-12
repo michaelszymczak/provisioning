@@ -1,5 +1,7 @@
 $username = "maikeru"
 package { 'git': ensure => present }
+package { 'xclip': ensure => present }
+package { 'htop': ensure => present }
 class { 'ohmyzsh': }
 ohmyzsh::install { $username: }
 ohmyzsh::theme { $username: theme => 'ys' }

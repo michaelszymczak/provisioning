@@ -5,6 +5,7 @@ apt-get -y upgrade
 apt-get -y install puppet augeas-tools
 puppet module install acme-ohmyzsh
 puppet module install puppetlabs-apt
+puppet module install puppetlabs-nodejs
 
 puppet apply shell.pp
 puppet apply workflow.pp
